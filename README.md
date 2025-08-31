@@ -25,20 +25,6 @@ This project aims to automatically detect toxic, offensive, or harmful language 
 - **Matplotlib / Seaborn** for visualization
 - **Streamlit** for deployment as a simple web app
 
----
-
-## 📂 Project Structure
-```
-
-Toxicity-Detector-using-BiLSTM/
-│── Results/                  # Training results, plots
-│── model\_epochs/             # Saved model checkpoints
-│── toxicity\_app\_streamlit.py # Streamlit app for demo
-│── Comment\_Toxicity\_using\_BiLSTM.ipynb # Main training notebook
-│── data\_final.csv            # Training dataset
-│── README.md
-
-````
 
 ---
 
