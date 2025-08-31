@@ -1,6 +1,95 @@
-# Comment-Toxicity-using-BiLSTM
-Built an end-to-end pipeline to be able to classify the degree of toxicity of user comments using BiLSTM-based Deep Learning model and finally built a Gradio-based UI to enable users to deploy the model locally for inferencing.
+Here’s your README in pure copy-paste form (no explanations, no side chatter):
 
-Run the Comment_Toxicity_using_BiLSTM file first which will create and save the trained model object. Then run the Gradio notebook which will use the trained model to enable the interface for users to make real-time predictions 
+```markdown
+# Toxicity Detector using BiLSTM
 
-<img src = "Gradio_sample.png">
+A deep learning model to classify the degree of toxicity in user comments using a **Bidirectional LSTM (BiLSTM)** network.  
+This project aims to automatically detect toxic, offensive, or harmful language in text, making online communities safer.
+
+---
+
+## ✨ Features
+- Preprocessing pipeline for raw text (cleaning, tokenization, padding).
+- Word embeddings for rich semantic representation.
+- **BiLSTM-based classifier** for sequence modeling.
+- Trained on labeled comment datasets for toxicity detection.
+- Supports multiple levels of toxicity classification (toxic, severe toxic, obscene, threat, insult, identity hate).
+
+---
+
+## ⚙️ Tech Stack
+- **Python 3**
+- **TensorFlow / Keras**
+- **BiLSTM (Bidirectional Long Short-Term Memory)**
+- **NumPy, Pandas** for data handling
+- **Matplotlib / Seaborn** for visualization
+- **Streamlit** for deployment as a simple web app
+
+---
+
+## 📂 Project Structure
+```
+
+Toxicity-Detector-using-BiLSTM/
+│── Results/                  # Training results, plots
+│── model\_epochs/             # Saved model checkpoints
+│── toxicity\_app\_streamlit.py # Streamlit app for demo
+│── Comment\_Toxicity\_using\_BiLSTM.ipynb # Main training notebook
+│── data\_final.csv            # Training dataset
+│── README.md
+
+````
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Nyx1311/Toxicity-Detector-using-BiLSTM.git
+cd Toxicity-Detector-using-BiLSTM
+````
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Train the model
+
+```bash
+jupyter notebook Comment_Toxicity_using_BiLSTM.ipynb
+```
+
+### 4. Run the web app
+
+```bash
+streamlit run toxicity_app_streamlit.py
+```
+
+---
+
+## 📊 Results
+
+* Achieved strong accuracy on multi-label toxicity classification.
+* BiLSTM captures context from both directions, improving prediction quality compared to vanilla LSTM.
+
+*(Insert confusion matrix, accuracy/loss plots here.)*
+
+---
+
+## 📌 Future Improvements
+
+* Integrate pre-trained embeddings (e.g., GloVe, fastText).
+* Explore Transformer-based models (BERT, RoBERTa).
+* Deploy a production-ready API.
+
+---
+
+## 🧑‍💻 Author
+
+Developed by **[Nyx1311](https://github.com/Nyx1311)**.
+
+`
+
