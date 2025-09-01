@@ -1,7 +1,4 @@
-Here’s your README in pure copy-paste form (no explanations, no side chatter):
-
-```markdown
-# Toxicity Detector using BiLSTM
+Toxicity Detector using BiLSTM
 
 A deep learning model to classify the degree of toxicity in user comments using a **Bidirectional LSTM (BiLSTM)** network.  
 This project aims to automatically detect toxic, offensive, or harmful language in text, making online communities safer.
